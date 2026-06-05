@@ -1,5 +1,5 @@
 <h1 align="center">
-F1 Pattern Recognition: Driver Behavior Analysis using <br> Machine Learning and Clustering Algorithms
+Machine Learning-Based F1 Driver Behavior Analysis and <br> Clustering System
 </h1>
 
 ---
@@ -7,13 +7,13 @@ F1 Pattern Recognition: Driver Behavior Analysis using <br> Machine Learning and
 ## 📝 Abstract
 
 <div align="justify">
-This project identifies and analyzes distinct behavioral patterns in Formula 1 driver performance across 75 years of racing data (1950-2024). Using a combination of unsupervised learning techniques (K-Means, DBSCAN, Hierarchical Clustering) and dimensionality reduction (PCA), we classify drivers into three distinct behavioral archetypes: Consistent Climbers, Midfield Stabilizers, and Volatile Drivers.
+ApexFlow identifies and analyzes distinct behavioral patterns in Formula 1 driver performance across 75 years of racing data (1950-2024). Using a combination of unsupervised learning techniques (K-Means, DBSCAN, Hierarchical Clustering) and dimensionality reduction (PCA), ApexFlow classifies drivers into three distinct behavioral archetypes: Consistent Climbers, Midfield Stabilizers, and Volatile Drivers.
 </div> <br> <div>
 The analysis engineers 7 behavioral features from position change metrics, normalizes them using StandardScaler, and applies statistical significance testing (permutation tests, chi-square tests) to validate clustering results. Supervised learning models (Random Forest, Linear Regression) are trained using 5-fold cross-validation to predict driver performance characteristics, achieving a 37.9% improvement over naive baselines.
 </div> <br>
 
 <div align="justify">
-The project leverages 26,759 historical race records from the Kaggle F1 dataset, validates results on 2024 season data, and generates 12 publication-ready visualizations and 9 data export files documenting cluster assignments, transition matrices, and model performance metrics.
+ApexFlow leverages 26,759 historical race records from the Kaggle F1 dataset, validates results on 2024 season data, and generates 12 publication-ready visualizations and 9 data export files documenting cluster assignments, transition matrices, and model performance metrics.
 </div>
 
 ---
@@ -77,7 +77,7 @@ ApexFlow/
 ## 🛠️ Technologies Used
 
 | Category | Technology |
-|----------|-----------|
+|----------|------------|
 | **Language** | Python 3.10+ |
 | **ML Libraries** | scikit-learn 1.2+, pandas 1.5+, numpy 1.23+ |
 | **Visualization** | matplotlib 3.6+, seaborn 0.12+ |
@@ -172,7 +172,7 @@ The notebook will execute all 54 cells, performing the complete analysis pipelin
 - **Features Engineered**: 7
 - **Output Files Generated**: 21 (12 PNG + 9 CSV)
 
-
+---
 
 ## 🌐 Contact
 
